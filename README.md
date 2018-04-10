@@ -2,5 +2,4 @@
 ---
 > SQL scripts to debug Sitecore stuff
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=dQw4w9WgXcQ
-" target="_blank"><img src="http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="IMAGE ALT TEXT HERE" width="50%" border="10" /></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
