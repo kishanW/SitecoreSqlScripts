@@ -11,10 +11,10 @@ from
 	INNER JOIN [SitecoreSitecore_Master].dbo.[Items] fieldInfo		-- more info on field
 		ON fieldInfo.ID = vf.FieldId
 where 1=1
-	AND it.ID IN (
-		'{1139FC0F-AE29-4FA2-99BA-82F777C436F2}'
-		, '{7BCE1370-1990-4C63-964F-2D4EFD52C7C6}'
-		)	-- your item id
+	AND it.ID IN (											-- your item ids
+			'{1139FC0F-AE29-4FA2-99BA-82F777C436F2}'
+			, '{7BCE1370-1990-4C63-964F-2D4EFD52C7C6}'
+		)
 	AND fieldInfo.Name NOT IN (								-- fields to skip
 		'__Lock'
 		,'__Owner'
